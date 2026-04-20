@@ -1,0 +1,27 @@
+{
+  "sources": [
+    "/home/sayem/Desktop"
+  ],
+  "backup_dest": "/home/sayem/AutoBackupSystem/backups",
+  "interval": 60,
+  "max_backups": 20,
+  "compression": "gz",
+  "exclude_patterns": [
+    "*.tmp",
+    "*.swp",
+    "*~",
+    "__pycache__",
+    ".git",
+    "node_modules"
+  ],
+  "auto_start_backup": false,
+  "startup_launch": false,
+  "notify_desktop": true,
+  "shutdown_backup": true,
+  "schedule_mode": "interval",
+  "schedule_time": "02:00",
+  "schedule_weekday": 4,
+  "incremental": false,
+  "verify_after": false,
+  "backup_src": "/home/sayem/"
+}
